@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://delightingtech.com/sitemap.xml
