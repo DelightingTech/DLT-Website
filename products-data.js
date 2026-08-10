@@ -107,22 +107,22 @@ kits: {
   img: "https://sc02.alicdn.com/kf/H57316ee60cfd4811b192922299383d54x.jpg",
   desc: "Plug-and-play kits with adapter + controller. Single color, RGB, RGBIC, TV backlight. Retail box / blister.",
   series: [
-    { name: "SMD2835 Single Color KIT", rows: [
+    { name: "SMD2835 Single Color KIT", img: "https://delightingtech.com/kits-rgb.jpg", rows: [
       ["DLT-KIT-2835","DC12V/24V/5V","SMD 2835","60/120/180/240 LEDs/m","Single Color","2M/3M/5M","IP20/IP65","Strip + Adapter","Box/Blister"]
     ]},
-    { name: "SMD5050 Single Color KIT", rows: [
+    { name: "SMD5050 Single Color KIT", img: "https://delightingtech.com/kits-rgb.jpg", rows: [
       ["DLT-KIT-5050","DC12V/24V/5V","SMD 5050","30/60/120 LEDs/m","Single Color","2M/3M/5M","IP20/IP65","Strip + Adapter","Box/Blister"]
     ]},
-    { name: "SMD5050 RGB KIT", rows: [
+    { name: "SMD5050 RGB KIT", img: "https://delightingtech.com/kits-rgb.jpg", rows: [
       ["DLT-KIT-RGB","DC12V/24V","SMD 5050","18/30/54/60 LEDs/m","RGB / RGBIC","5M/10M/15M/20M/30M","IP20/IP65","Strip + Adapter + Controller","Box/Blister"]
     ]},
-    { name: "SMD5050 5V USB RGB KIT", rows: [
+    { name: "SMD5050 5V USB RGB KIT", img: "https://delightingtech.com/kits-usb.jpg", rows: [
       ["DLT-KIT-RGB-USB","DC5V","SMD 5050","30/18 LEDs/m","RGB / RGBIC","2M/3M/5M","IP20/IP65","Strip + Controller (Bluetooth/Tuya WiFi)","Box/Blister"]
     ]},
-    { name: "SMD2835 RGB KIT", rows: [
+    { name: "SMD2835 RGB KIT", img: "https://delightingtech.com/kits-rgbic.jpg", rows: [
       ["DLT-KIT-2835RGB","DC12V","SMD 2835","54 LEDs/m","RGB / RGBIC","5M/10M","IP20/IP65","Strip + Controller (Bluetooth/Tuya WiFi)","Box/Blister"]
     ]},
-    { name: "Color Sync TV Backlight KIT", rows: [
+    { name: "Color Sync TV Backlight KIT", img: "https://delightingtech.com/kits-tv.jpg", rows: [
       ["DLT-KIT-TV","DC12V","SMD 5050","30 LEDs/m","RGBIC","3.8M (55-65\") / 5M (65-75\")","IP20","Sensor or camera sync","APP + Remote"]
     ]}
   ]
@@ -133,7 +133,7 @@ hv: {
   img: "https://sc02.alicdn.com/kf/H5561500641a540ed875556bf36631446L.jpg",
   desc: "AC 110V/220V direct — no driver needed. SMD and COB options. IP44/IP65/IP67.",
   series: [
-    { name: "AC SMD Series", rows: [
+    { name: "AC SMD2835 Series", img: "https://delightingtech.com/hv-smd.jpg", rows: [
       ["DLT120-2835-220V-Driverless","SMD 2835","120 LEDs/m","AC220V/110V","8mm","CRI 80","10W/m","24-26LM/LED","2 Years"],
       ["DLT240-2835-220V-Driverless","SMD 2835","240 LEDs/m","AC220V/110V","11mm","CRI 80","18W/m","24-26LM/LED","2 Years"],
       ["DLT180-2835-220V","SMD 2835","180 LEDs/m","AC220V/110V","10mm","CRI 80","12W/m","24-26LM/LED","2 Years"],
@@ -143,7 +143,7 @@ hv: {
       ["DLT60-5050RGB-220V","SMD 5050 RGB","60 LEDs/m","AC220V/110V","10mm","CRI 70","12W/m","12-14LM/LED","2 Years"],
       ["DLT120-5730-220V","SMD 5730","120 LEDs/m","AC220V/110V","10mm","CRI 80","12W/m","20-22LM/LED","2 Years"]
     ]},
-    { name: "AC COB Driverless Series", rows: [
+    { name: "AC COB Driverless Series", img: "https://delightingtech.com/hv-cob.jpg", rows: [
       ["DLT360-COB-Driverless","COB","360 LEDs/m","AC220V/110V","8mm","Ra>80","10W/m","Cut 12.5cm","2/3 Years"],
       ["DLT296-COB-Driver-free","COB","296 LEDs/m","AC220V/110V","8mm","Ra>80","10W/m","Cut 12.5cm","2/3 Years"],
       ["DLT240-COB-Driver-free","COB","240 LEDs/m","AC220V/110V","8mm","Ra>80","10W/m","Cut 10cm","2/3 Years"],
@@ -155,10 +155,10 @@ hv: {
 
 psu: {
   title: "LED Power Supply",
-  img: "https://sc02.alicdn.com/kf/H8ac5e993e8eb4ad29e1e385ae67d0389F.jpg",
+  img: "https://sc02.alicdn.com/kf/H0480daaadc2345c7b825152df3195356v.jpg",
   desc: "Switching, slim, ultra-thin, rainproof, IP67 waterproof, DALI dimmable. 15W–720W. CE/ROHS/LVD/FCC/SAA/ETL.",
   series: [
-    { name: "Normal Switching Power Supply (IP20)", rows: [
+    { name: "Normal Switching Power Supply (IP20)", img: "https://delightingtech.com/psu-nsp.jpg", rows: [
       ["D-NSP-15","15W","12V1.25A / 5V3A","100-264V","82%","IP20","L70×W40×H30"],
       ["D-NSP-25","25W","12V2A / 24V1A / 5V5A","100-264V","82%","IP20","L85×W57×H34"],
       ["D-NSP-40","40W","12V3A / 24V1.5A","100-264V","82%","IP20","L110×W78×H36"],
@@ -176,7 +176,7 @@ psu: {
       ["D-NSP-600","600W","12V50A / 24V25A","110/220V±10%","82%","IP20","L242×W131×H68"],
       ["D-NSP-720","720W","12V60A / 24V30A","110/220V±10%","82%","IP20","L242×W131×H68"]
     ]},
-    { name: "Slim Series (IP20)", rows: [
+    { name: "Slim Series (IP20)", img: "https://delightingtech.com/psu-sl.jpg", rows: [
       ["D-SL-60","60W","12V5A / 24V2.5A","100-264V","82%","IP20","L160×W40×H33"],
       ["D-SL-72","72W","12V6A / 24V3A","100-264V","82%","IP20","L160×W40×H33"],
       ["D-SL-120","120W","12V10A / 24V5A","100-264V","82%","IP20","L187×W45×H35"],
@@ -186,7 +186,7 @@ psu: {
       ["D-SL-300","300W","12V25A / 24V12.5A","110/220V±10%","82%","IP20","L222×W68×H40"],
       ["D-SL-360","360W","12V30A / 24V15A","110/220V±10%","82%","IP20","L222×W68×H40"]
     ]},
-    { name: "Ultra-thin Series (IP20)", rows: [
+    { name: "Ultra-thin Series (IP20)", img: "https://delightingtech.com/psu-utp.jpg", rows: [
       ["D-UTP-60","60W","12V5A / 24V2.5A","180-240V","82%","IP20","L145×W52×H22"],
       ["D-UTP-100","100W","12V8A / 24V4A","180-240V","82%","IP20","L168×W52×H22"],
       ["D-UTP-150","150W","12V12.5A / 24V6A","180-240V","82%","IP20","L235×W52×H22"],
@@ -194,21 +194,21 @@ psu: {
       ["D-UTB-300","300W","12V25A / 24V12.5A","180-240V","82%","IP20","L307×W52×H22"],
       ["D-UTP-400","400W","12V33A / 24V16.5A","180-240V","82%","IP20","L339×W52×H22"]
     ]},
-    { name: "Rainproof Series (IP20)", rows: [
+    { name: "Rainproof Series (IP20)", img: "https://delightingtech.com/psu-fy.jpg", rows: [
       ["D-FY-60","60W","12V5A / 24V5A","176-264V","82%","IP20","L126×W75×H42"],
       ["D-FY-120","120W","12V10A / 24V5A","176-264V","82%","IP20","L152×W75×H42"],
       ["D-FY-200","200W","12V16A / 24V8A","176-264V","82%","IP20","L185×W93×H42"],
       ["D-FY-300","300W","12V25A / 24V12.5A","176-264V","82%","IP20","L185×W93×H49"],
       ["D-FY-400","400W","12V33A / 24V16.5A","176-264V","82%","IP20","L117×W49×H190"]
     ]},
-    { name: "Black-diamond Series (IP20)", rows: [
+    { name: "Black-diamond Series (IP20)", img: "https://delightingtech.com/psu-bp.jpg", rows: [
       ["D-BP-60","60W","12V/24V","180-240V","82%","IP20","L116×W35×H23"],
       ["D-BP-100","100W","12V/24V","180-240V","82%","IP20","L140×W50×H23"],
       ["D-BP-200","200W","12V/24V","180-240V","82%","IP20","L180×W50×H23"],
       ["D-BP-300","300W","12V/24V","180-240V","82%","IP20","L208×W50×H23"],
       ["D-BP-400","400W","12V/24V","180-240V","82%","IP20","L238×W50×H23"]
     ]},
-    { name: "Super-slim Series (IP20)", rows: [
+    { name: "Super-slim Series (IP20)", img: "https://delightingtech.com/psu-ssp.jpg", rows: [
       ["D-SSP-18","18W","12V1.5A","100-264V","82%","IP20","L175×W18×H18"],
       ["D-SSP-24","24W","12V1A / 24V2A","100-264V","82%","IP20","L175×W18×H18"],
       ["D-SSP-36","36W","12V3A / 24V1.5A","100-264V","82%","IP20","L282×W18×H18"],
@@ -216,7 +216,7 @@ psu: {
       ["D-SSP-60","60W","12V5A / 24V2.5A","100-264V","82%","IP20","L312×W18×H18"],
       ["D-SSP-72","72W","12V6A / 24V3A","100-264V","82%","IP20","L375×W18×H18"]
     ]},
-    { name: "Waterproof IP67 Series", rows: [
+    { name: "Waterproof IP67 Series", img: "https://delightingtech.com/psu-fs.jpg", rows: [
       ["D-FS-10","10W","12V/24V","100-240V","82%","IP67","L95×W30×H20"],
       ["D-FS-20","20W","12V/24V","100-240V","82%","IP67","L160×W30×H20"],
       ["D-FS-30","30W","12V/24V","100-240V","82%","IP67","L200×W30×H20"],
@@ -227,7 +227,7 @@ psu: {
       ["D-FS-300","300W","12V/24V","100-240V","82%","IP67","L230×W125×H45"],
       ["D-FS-400","400W","12V/24V","100-240V","82%","IP67","L230×W125×H45"]
     ]},
-    { name: "Waterproof IP67 Series — NEW", rows: [
+    { name: "Waterproof IP67 Series — NEW", img: "https://delightingtech.com/psu-fsn.jpg", rows: [
       ["D-FSN-60","60W","12V/24V","100-240V","82%","IP67","L130×W44×H21"],
       ["D-FSN-80","80W","12V/24V","100-240V","82%","IP67","L160×W44×H21"],
       ["D-FSN-100","100W","12V/24V","100-240V","82%","IP67","L170×W65×H31"],
@@ -238,7 +238,7 @@ psu: {
       ["D-FSN-400","400W","12V/24V","100-240V","82%","IP67","L250×W75×H40"],
       ["D-FSN-500","500W","12V/24V","100-240V","82%","IP67","L250×W75×H40"]
     ]},
-    { name: "DALI Dimmable Driver IP67", rows: [
+    { name: "DALI Dimmable Driver IP67", img: "https://delightingtech.com/psu-dl67.jpg", rows: [
       ["D-DL67-30","30W","12V/24V","85-265V AC","85-91%","IP67","L164×W56×H35"],
       ["D-DL67-40","40W","12V/24V","85-265V AC","85-91%","IP67","L164×W56×H35"],
       ["D-DL67-45","45W","12V/24V","85-265V AC","85-91%","IP67","L164×W56×H35"],
@@ -255,7 +255,7 @@ psu: {
       ["D-DL67-350","350W","12V/24V","85-265V AC","85-91%","IP67","L244×W75×H38"],
       ["D-DL67-400","400W","12V/24V","85-265V AC","85-91%","IP67","L244×W75×H38"]
     ]},
-    { name: "DALI Dimmable Driver IP20", rows: [
+    { name: "DALI Dimmable Driver IP20", img: "https://delightingtech.com/psu-dl20.jpg", rows: [
       ["D-DL20-12","12W","12V/24V","90-130/180-240V AC","86%","IP20","L100×W36×H18"],
       ["D-DL20-20","20W","12V/24V","90-130/180-240V AC","86%","IP20","L100×W36×H18"],
       ["D-DL20-30","30W","12V/24V","90-130/180-240V AC","86%","IP20","L107×W40×H22"],
@@ -268,22 +268,22 @@ psu: {
 },
 
 eave: {
-  title: "LED Eave Lights (HCP045)",
-  img: "https://delightingtech.com/eave-1.jpg",
-  desc: "Bluetooth RGBIC eave wall lights. 24V DC, 1W/LED, IP67, ABS+PC housing, 5056 RGB. 160万色 + 声控律动 + 44种动态模式.",
+  title: "LED Eave Lights",
+  img: "https://delightingtech.com/eave-main.jpg",
+  desc: "Bluetooth RGBIC eave wall lights. 24V DC, 1W/LED, IP67, ABS+PC housing, 5056 RGB. 1.6 million colors, music-sync rhythm, 44 dynamic modes.",
   series: [
-    { name: "Bluetooth RGBIC Eave Wall Light — HCP044/HCP045", rows: [
-      ["DN-EAVE15-18D","15米 18灯","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","蓝牙APP+2.4G遥控","¥65"],
-      ["DN-EAVE30-36D","30米 36灯","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","蓝牙APP+2.4G遥控","¥105"],
-      ["DN-EAVE45-54D","45米 54灯","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","蓝牙APP+2.4G遥控","¥142"],
-      ["DN-EAVE60-72D","60米 72灯","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","蓝牙APP+2.4G遥控","¥163"]
+    { name: "Bluetooth RGBIC Eave Wall Light", rows: [
+      ["DN-EAVE15-18D","15m · 18 LEDs","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","Bluetooth APP + 2.4G Remote"],
+      ["DN-EAVE30-36D","30m · 36 LEDs","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","Bluetooth APP + 2.4G Remote"],
+      ["DN-EAVE45-54D","45m · 54 LEDs","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","Bluetooth APP + 2.4G Remote"],
+      ["DN-EAVE60-72D","60m · 72 LEDs","DC24V","RGBIC","IP67","ABS+PC","5056 RGB","Bluetooth APP + 2.4G Remote"]
     ]}
   ]
 },
 
 signs: {
   title: "Flexible LED Signs",
-  img: "https://sc02.alicdn.com/kf/Hc9c7c230add7a422bb3e521da243c91a5n.jpg",
+  img: "https://delightingtech.com/signs.jpg",
   desc: "Flexible LED sign panels. 2121RGB chips, PU+FPCB, IP65, USB powered, PixelJoy App control.",
   series: [
     { name: "Flexible Led Signs Series", rows: [
@@ -300,31 +300,44 @@ signs: {
 
 backlight: {
   title: "LED Backlight Panels",
-  img: "https://s.alicdn.com/@sc04/kf/H19934b94e46042e990065401dcb649fbi/High-Brightness-High-CRI-RA97-DC24V-Copper.png",
-  desc: "High-brightness flexible backlight panels. CRI 97, 450–960 LEDs. CCT + RGBW. Cuttable. 5-year warranty.",
+  img: "https://delightingtech.com/backlight.jpg",
+  desc: "DC24V flexible backlight panels for marble, glass, light film, ultra-thin light boxes. San'an chips, CRI 97, 120° beam, cuttable, IP20.",
   series: [
-    { name: "Flexible LED Backlight Panels", rows: [
-      ["DLT-BP-450","COB 450 LEDs/m","DC24V","CRI 97","CCT + RGBW","Cuttable","Signage / stone backlighting","5 Years"],
-      ["DLT-BP-CCT","COB CCT","DC24V","CRI 97","CCT","Cuttable","Signage / stone backlighting","5 Years"],
-      ["DLT-BP-RGBW","COB RGBW","DC24V","CRI 97","RGBW","Cuttable","Signage / stone backlighting","5 Years"]
+    { name: "Flexible LED Backlight Panels", img: "https://delightingtech.com/backlight.jpg", rows: [
+      ["DLT-BP-450","SMD 2835 (San'an)","0.5W x 450","3000K","CRI ≥97","36W","120 lm/W","L500xW250mm","Cut 16x16mm","Marble / glass / light box"],
+      ["DLT-BP-RGBW","SMD 5050 (San'an)","0.8W x 288","RGBW (W=3000K)","—","20W","—","L500xW250mm","Cut 62x42mm","Marble / glass / light box"],
+      ["DLT-BP-CCT","SMD 2835 2-in-1 (San'an)","0.5W x 450","2700K + 6000K","CRI ≥97","30W","110 lm/W","L500xW250mm","Cut 16x16mm","Marble / glass / light box"]
     ]}
   ]
 },
 
 profile: {
   title: "LED Aluminum Profile",
-  img: "https://sc02.alicdn.com/kf/H8ac5e993e8eb4ad29e1e385ae67d0389F.jpg",
-  desc: "LED aluminum channels with diffuser. Custom lengths.",
+  img: "https://delightingtech.com/profile-xt537.jpg",
+  desc: "LED aluminum channels with diffuser, end caps and mounting clips. Length 1M/2M/3M, custom available.",
   series: [
-    { name: "Aluminum Profile", rows: [
-      ["DLT-AL-01","1.0mm thickness","1M / 2M / 3M","Custom length available","With diffuser & end caps","—","—"]
+    { name: "Surface Mounted Profiles", img: "https://delightingtech.com/profile-xt209.jpg", rows: [
+      ["XT209","0808","L x 8 x 8mm","For 5mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"],
+      ["XT231","0809","L x 7.8 x 9mm","For 5.5mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"],
+      ["XT453","1010","L x 10 x 10mm","For 8mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"],
+      ["XT451","1013","L x 10 x 13mm","For 8mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"],
+      ["XT537","1210","L x 12 x 10mm","For 10mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"],
+      ["XT672","1212","L x 12 x 12mm","For 10mm strip","Anodized / Painted / Rose Gold","Opal / Black / Frosted"],
+      ["XT298","1509","L x 14.8 x 8.8mm","For 12mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"],
+      ["XT200","1606","L x 15.6 x 5.9mm","For 12mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"],
+      ["XT164","1707","L x 17.4 x 7mm","For 12mm strip","Anodized / Painted (B/W)","Opal / Black / Frosted"]
+    ]},
+    { name: "Recessed & Corner Profiles", img: "https://delightingtech.com/profile-xt293.jpg", rows: [
+      ["XT293","0809 with flange","L x 12.8 x 9mm","For 5.5mm strip","Recessed mount","Anodized / Painted (B/W)"],
+      ["XT407","1313 corner","L x 13 x 13mm","For 8mm strip","90° corner","Anodized / Painted (B/W)"],
+      ["XT58","1616 corner","L x 15.8 x 15.8mm","For 10mm strip","90° corner","Anodized / Painted (B/W)"]
     ]}
   ]
 },
 
 modules: {
   title: "LED Modules",
-  img: "https://sc02.alicdn.com/kf/H57316ee60cfd4811b192922299383d54x.jpg",
+  img: "https://delightingtech.com/modules.jpg",
   desc: "LED sign modules. 2 years warranty.",
   series: [
     { name: "LED Modules", rows: [
@@ -360,12 +373,13 @@ const SERIES_COLS = {
   'SMD5050 5V USB RGB KIT': ['Model','Voltage','LED','LEDs/m','Color','Length','IP','Components','Package'],
   'SMD2835 RGB KIT': ['Model','Voltage','LED','LEDs/m','Color','Length','IP','Components','Package'],
   'Color Sync TV Backlight KIT': ['Model','Voltage','LED','LEDs/m','Color','Length','IP','Components','Package'],
-  'AC SMD Series': ['Model','LED Type','LEDs/m','Voltage','Width','CRI','Power/m','Lumens','Warranty'],
+  'AC SMD2835 Series': ['Model','LED Type','LEDs/m','Voltage','Width','CRI','Power/m','Lumens','Warranty'],
   'AC COB Driverless Series': ['Model','Type','LEDs/m','Voltage','Width','CRI','Power/m','Cutting','Warranty'],
-  'Bluetooth RGBIC Eave Wall Light — HCP044/HCP045': ['Model','Spec','Voltage','Color','IP','Material','LED','Control','Price'],
+  'Bluetooth RGBIC Eave Wall Light': ['Model','Spec','Voltage','Color','IP','Material','LED','Control'],
   'Flexible Led Signs Series': ['Model','Pixels','Size','Power','LED','Material','Input','Control'],
-  'Flexible LED Backlight Panels': ['Model','LED','Voltage','CRI','Color','Cuttable','Application','Warranty'],
-  'Aluminum Profile': ['Model','Thickness','Length','Custom','Accessories'],
+  'Flexible LED Backlight Panels': ['Model','Chip','Power','CCT','CRI','Rated Power','LOR','Size','Cutting Unit','Application'],
+  'Surface Mounted Profiles': ['Model','Code','Size','Applicable Strip','Finish','PC Cover'],
+  'Recessed & Corner Profiles': ['Model','Code','Size','Applicable Strip','Type','Finish'],
   'LED Modules': ['Model','Type','Warranty']
 };
 function defaultCols(n){ const d=['Model']; for(let i=1;i<n;i++) d.push('Parameter '+i); return d; }
@@ -407,7 +421,8 @@ function openCat(k){
     const cols = isPsu ? psuCols() : (SERIES_COLS[s.name] || defaultCols(s.rows[0].length));
     const head = cols.map(h=>'<th>'+esc(h)+'</th>').join('');
     const body = s.rows.map(r=>'<tr>'+r.map(cell=>'<td>'+esc(cell)+'</td>').join('')+'</tr>').join('');
-    return '<div class="sub-card" onclick="toggleSub(this)"><div class="sc-top"><div class="sc-body"><h4>'+esc(s.name)+'</h4><div class="sc-model">'+s.rows.length+' models</div><div class="sc-expand">&#9662; Specs</div></div></div><div class="sc-detail"><table class="spec-table"><thead><tr>'+head+'</tr></thead><tbody>'+body+'</tbody></table></div></div>';
+    const sImg = s.img ? '<img class="sc-img" src="'+s.img+'" alt="'+esc(s.name)+'" loading="lazy">' : '';
+    return '<div class="sub-card" onclick="toggleSub(this)"><div class="sc-top">'+sImg+'<div class="sc-body"><h4>'+esc(s.name)+'</h4><div class="sc-model">'+s.rows.length+' models</div><div class="sc-expand">&#9662; Specs</div></div></div><div class="sc-detail"><table class="spec-table"><thead><tr>'+head+'</tr></thead><tbody>'+body+'</tbody></table></div></div>';
   }).join('');
   document.getElementById('catModal').classList.add('active');
   document.body.style.overflow='hidden';
