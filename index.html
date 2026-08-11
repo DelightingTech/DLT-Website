@@ -196,6 +196,16 @@
   .consult-btn:hover { border-color:var(--accent); color:var(--accent); transform:translateY(-2px); }
   /* Series image */
   .sc-top img.sc-img { width:64px; height:64px; object-fit:cover; border-radius:8px; flex-shrink:0; }
+  /* Footer */
+  footer { background:var(--bg2); border-top:1px solid var(--border); padding:36px 28px 28px; }
+  .footer-inner { max-width:1280px; margin:0 auto; display:flex; justify-content:space-between; gap:24px; flex-wrap:wrap; align-items:flex-start; }
+  .footer-brand p { margin:0 0 6px; color:var(--text2); font-size:13px; }
+  .footer-links { display:flex; gap:18px; flex-wrap:wrap; }
+  .footer-links a { color:var(--text2); text-decoration:none; font-size:13px; transition:color .2s; }
+  .footer-links a:hover { color:var(--accent); }
+  .footer-contact p { margin:0 0 4px; color:var(--text2); font-size:13px; }
+  .footer-contact a { color:var(--text2); text-decoration:none; }
+  .footer-contact a:hover { color:var(--accent); }
 </style>
 </head>
 <body>
@@ -332,7 +342,21 @@
   </div>
 </section>
 
-<footer>&copy; 2026 Shenzhen Delighting Technology Co., Ltd &nbsp;|&nbsp; delightingtech.com &nbsp;|&nbsp; EMC · FCC · RoHS · CE · SAA · ETL</footer>
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p>&copy; 2026 Shenzhen Delighting Technology Co., Ltd. All rights reserved.</p>
+      <p>LED strip manufacturer since 2017.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a><a href="#products">Products</a><a href="#faq">FAQ</a><a href="#contact">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <p>Email: <a href="mailto:manager@delightingtech.com">manager@delightingtech.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/8618688723058" target="_blank">+86 186-8872-3058</a></p>
+    </div>
+  </div>
+</footer>
 
 <!-- ══════ CATEGORY MODAL ══════ -->
 <div class="modal" id="catModal"><div class="modal-backdrop" onclick="closeCat()"></div><div class="modal-panel"><div class="modal-header"><h2 id="catTitle"></h2><button class="modal-close" onclick="closeCat()">&times;</button></div><div class="modal-body" id="catBody"></div></div></div>
