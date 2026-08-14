@@ -330,12 +330,16 @@
       <div class="contact-info"><h4>Phone</h4><p>+86 0755-82485639</p><h4>Address</h4><p>1006, No.5, North 3 Lane, Heping Road<br>Heping Community, Fuhai Street<br>Bao'an District, Shenzhen, China</p></div>
       <div class="contact-form">
         <h4>Leave a Message</h4>
-        <form onsubmit="submitMsg(event)">
+        <form id="contactForm">
+          <input type="hidden" name="access_key" value="746c4a77-f2f7-4087-9791-176f425d630b">
+          <input type="hidden" name="subject" value="New Website Inquiry from delightingtech.com">
+          <input type="hidden" name="from_name" value="Delighting Website Form">
           <label>Name <span class="req">*</span></label><input type="text" name="name" placeholder="Please enter your name" required>
           <label>Cell phone</label><input type="tel" name="phone" placeholder="Please enter your cell phone">
           <label>E-mail <span class="req">*</span></label><input type="email" name="email" placeholder="Please enter your email address" required>
           <label>Content <span class="req">*</span></label><textarea name="msg" placeholder="Please enter the content of interest" required></textarea>
           <button type="submit">Submit</button>
+          <div id="formStatus"></div>
         </form>
       </div>
     </div>
@@ -366,7 +370,35 @@
 
 <script src="products-data.js"></script>
 <script>
-function submitMsg(e){ e.preventDefault(); var f=e.target; var name=f.name.value, phone=f.phone.value, email=f.email.value, msg=f.msg.value; var body=encodeURIComponent('Name: '+name+'\nPhone: '+phone+'\nEmail: '+email+'\n\n'+msg); location.href='mailto:manager@delightingtech.com?subject='+encodeURIComponent('Website Inquiry from '+name)+'&body='+body; }
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var form = e.target;
+  var btn = form.querySelector('button[type=submit]');
+  var status = document.getElementById('formStatus');
+  btn.disabled = true; btn.textContent = 'Sending...';
+  var data = {};
+  var fd = new FormData(form);
+  fd.forEach(function(v,k){ data[k] = v; });
+  data.access_key = '746c4a77-f2f7-4087-9791-176f425d630b';
+  data.subject = 'New Website Inquiry from delightingtech.com';
+  data.from_name = 'Delighting Website Form';
+  fetch('https://api.web3forms.com/submit', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+    body: JSON.stringify(data)
+  }).then(function(res){ return res.json(); }).then(function(json){
+    if(json.success){
+      status.innerHTML = '<p style="color:#2e9e4f;margin-top:12px;font-size:13px;">Thank you! Your message has been sent. We will reply within 2 hours.</p>';
+      form.reset();
+    } else {
+      status.innerHTML = '<p style="color:#d33;margin-top:12px;font-size:13px;">Submission failed. Please email us at manager@delightingtech.com.</p>';
+    }
+  }).catch(function(){
+    status.innerHTML = '<p style="color:#d33;margin-top:12px;font-size:13px;">Network error. Please email us at manager@delightingtech.com.</p>';
+  }).finally(function(){
+    btn.disabled = false; btn.textContent = 'Submit';
+  });
+});
 function closeConsult(){ document.getElementById('consultModal').classList.remove('active'); document.body.style.overflow=''; }
 window.addEventListener('load', function(){ setTimeout(function(){ document.getElementById('consultModal').classList.add('active'); document.body.style.overflow='hidden'; }, 800); });
 </script>
