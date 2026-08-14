@@ -5,7 +5,7 @@ const CATS = {
 
 cob: {
   title: "COB LED Strip Light",
-  img: "https://sc02.alicdn.com/kf/H0ec9a74077fd4a61993829796f2e1dc63.jpg",
+  img: "https://delightingtech.com/cob-card.jpg",
   desc: "Dotless seamless illumination. Hidden-bridge COB technology, 3mm–30mm PCB width, 300–1,600 LEDs/m.",
   series: [
     { name: "Single Color Series", rows: [
@@ -46,7 +46,7 @@ cob: {
 
 smd: {
   title: "SMD LED Strip Light",
-  img: "https://sc02.alicdn.com/kf/H8764cc83697043fda75cc156eded992fq.jpg",
+  img: "https://delightingtech.com/smd-card.jpg",
   desc: "High-brightness SMD 2835 / 5050 strips. Single color, CCT, RGB, RGBW, RGBCCT, RGBIC. 30–240 LEDs/m.",
   series: [
     { name: "Single Color Series", rows: [
@@ -82,7 +82,7 @@ smd: {
 
 neon: {
   title: "Flex Neon Strip Light",
-  img: "https://s.alicdn.com/@sc04/kf/Had411299b6e1470d9b96f4dd0c84cf599/12-X-12mm-High-Quality-IP65-IP67.png_480x480.jpg",
+  img: "https://delightingtech.com/neon-card.jpg",
   desc: "Soft silicon neon flex. 4×10 to 18×18mm. 120 LEDs/m SMD2835. IP65/IP67. Food-grade silicone.",
   series: [
     { name: "Silicon Neon Series", rows: [
@@ -104,7 +104,7 @@ neon: {
 
 kits: {
   title: "LED Strip Kits",
-  img: "https://sc02.alicdn.com/kf/H57316ee60cfd4811b192922299383d54x.jpg",
+  img: "https://delightingtech.com/kits-card.jpg",
   desc: "Plug-and-play kits with adapter + controller. Single color, RGB, RGBIC, TV backlight. Retail box / blister.",
   series: [
     { name: "SMD2835 Single Color KIT", img: "https://delightingtech.com/kits-rgb.jpg", rows: [
@@ -130,7 +130,7 @@ kits: {
 
 hv: {
   title: "High-Voltage Driverless LED Strip",
-  img: "https://sc02.alicdn.com/kf/H5561500641a540ed875556bf36631446L.jpg",
+  img: "https://delightingtech.com/hv-card.jpg",
   desc: "AC 110V/220V direct — no driver needed. SMD and COB options. IP44/IP65/IP67.",
   series: [
     { name: "AC SMD2835 Series", img: "https://delightingtech.com/hv-smd.jpg", rows: [
@@ -155,7 +155,7 @@ hv: {
 
 psu: {
   title: "LED Power Supply",
-  img: "https://sc02.alicdn.com/kf/H0480daaadc2345c7b825152df3195356v.jpg",
+  img: "https://delightingtech.com/psu-card.jpg",
   desc: "Switching, slim, ultra-thin, rainproof, IP67 waterproof, DALI dimmable. 15W–720W. CE/ROHS/LVD/FCC/SAA/ETL.",
   series: [
     { name: "Normal Switching Power Supply (IP20)", img: "https://delightingtech.com/psu-nsp.jpg", rows: [
@@ -269,7 +269,7 @@ psu: {
 
 eave: {
   title: "LED Eave Lights",
-  img: "https://delightingtech.com/eave-main.jpg",
+  img: "https://delightingtech.com/eave-card.jpg",
   desc: "Bluetooth RGBIC eave wall lights. 24V DC, 1W/LED, IP67, ABS+PC housing, 5056 RGB. 1.6 million colors, music-sync rhythm, 44 dynamic modes.",
   series: [
     { name: "Bluetooth RGBIC Eave Wall Light", rows: [
@@ -283,7 +283,7 @@ eave: {
 
 signs: {
   title: "Flexible LED Signs",
-  img: "https://delightingtech.com/signs.jpg",
+  img: "https://delightingtech.com/signs-card.jpg",
   desc: "Flexible LED sign panels. 2121RGB chips, PU+FPCB, IP65, USB powered, PixelJoy App control.",
   series: [
     { name: "Flexible Led Signs Series", rows: [
@@ -300,10 +300,10 @@ signs: {
 
 backlight: {
   title: "LED Backlight Panels",
-  img: "https://delightingtech.com/backlight.jpg",
+  img: "https://delightingtech.com/backlight-card.jpg",
   desc: "DC24V flexible backlight panels for marble, glass, light film, ultra-thin light boxes. San'an chips, CRI 97, 120° beam, cuttable, IP20.",
   series: [
-    { name: "Flexible LED Backlight Panels", img: "https://delightingtech.com/backlight.jpg", rows: [
+    { name: "Flexible LED Backlight Panels", img: "https://delightingtech.com/backlight-card.jpg", rows: [
       ["DLT-BP-450","SMD 2835 (San'an)","0.5W x 450","3000K","CRI ≥97","36W","120 lm/W","L500xW250mm","Cut 16x16mm","Marble / glass / light box"],
       ["DLT-BP-RGBW","SMD 5050 (San'an)","0.8W x 288","RGBW (W=3000K)","—","20W","—","L500xW250mm","Cut 62x42mm","Marble / glass / light box"],
       ["DLT-BP-CCT","SMD 2835 2-in-1 (San'an)","0.5W x 450","2700K + 6000K","CRI ≥97","30W","110 lm/W","L500xW250mm","Cut 16x16mm","Marble / glass / light box"]
@@ -313,7 +313,7 @@ backlight: {
 
 profile: {
   title: "LED Aluminum Profile",
-  img: "https://delightingtech.com/profile-xt537.jpg",
+  img: "https://delightingtech.com/profile-card.jpg",
   desc: "LED aluminum channels with diffuser, end caps and mounting clips. Length 1M/2M/3M, custom available.",
   series: [
     { name: "Surface Mounted Profiles", img: "https://delightingtech.com/profile-xt209.jpg", rows: [
@@ -337,7 +337,7 @@ profile: {
 
 modules: {
   title: "LED Modules",
-  img: "https://delightingtech.com/modules.jpg",
+  img: "https://delightingtech.com/modules-card.jpg",
   desc: "LED sign modules. 2 years warranty.",
   series: [
     { name: "LED Modules", rows: [
